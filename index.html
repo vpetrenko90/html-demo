@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML demo task</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <a href="/">
+          <img src="./images/business-icon.svg" alt="logo" />
+        </a>
+        <span class="header__logo__text">Apartment Owners Association</span>
+      </div>
+      <nav>
+        <ul class="menu">
+          <li>
+            <a href="#about">About us</a>
+          </li>
+          <li class="menu__item-icon">
+            <a href="#membership">Membership</a>
+            <button class="icon-button">
+              <i class="icon_button__down"></i>
+            </button>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#events">New and events</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="menu-hamburger">
+          <input
+            id="menu-hamburger-input"
+            class="menu-hamburger__input"
+            type="checkbox"
+          />
+          <label class="menu-hamburger__button" for="menu-hamburger-input">
+            <span></span>
+          </label>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__container__text">
+            <h1>Apartment ownership with no headache</h1>
+            <div class="hero__container__description">
+              Wide selection of lorem usce volutpat lectus justo, ut suscipit
+              felis congue ut. Vivamus ut ultricies ante dictum.
+            </div>
+          </div>
+        </div>
+        <img class="hero__image" src="./images/hero-image.png" alt="" />
+      </section>
+      <main>
+        <section>
+          <div class="info-block">
+            <div class="info-block__img">
+              <img src="./images/service.png" alt="Screening service" />
+            </div>
+            <div class="info-block__text">
+              <div class="info-block__text-subtitle">
+                Know who lives at your home with
+              </div>
+              <h2 class="info-block__text-title">Tenant screening service</h2>
+              <div class="info-block__text-description">
+                Tenant Screening is a service that allows you to Lorem usce
+                volutpat lectus justo, ut suscipit felis congue ut. Vivamus ut
+                ultricies ante dictum.
+              </div>
+              <button class="info-block__button">Try it</button>
+            </div>
+          </div>
+          <div class="info-block info-block__reverse">
+            <div class="info-block__img">
+              <img src="./images/right.png" alt="Advertising for business" />
+            </div>
+            <div class="info-block__text">
+              <div class="info-block__text-subtitle">
+                Make your business grow with
+              </div>
+              <h2 class="info-block__text-title">Advertising</h2>
+              <div class="info-block__text-description">
+                Wide selection of advertising oportunities like Lorem usce
+                volutpat lectus justo, ut suscipit felis congue ut. Vivamus ut
+                ultricies ante dictum.
+              </div>
+              <button class="info-block__button">Lean more</button>
+            </div>
+          </div>
+        </section>
+        <article>
+          <h2>Our agents</h2>
+          <div class="agents">
+            <table
+              class="agents__table"
+              cellspacing="0"
+              cellpadding="0"
+              border="0"
+            >
+              <thead>
+                <tr>
+                  <th>Navn</th>
+                  <th>Company</th>
+                  <th>Level</th>
+                  <th>Deals closed</th>
+                  <th>State</th>
+                  <th>Phone</th>
+                  <th>Email</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Christian Andersen</td>
+                  <td>Pixel Inc.</td>
+                  <td>Senior</td>
+                  <td>315</td>
+                  <td>California</td>
+                  <td>+1764156161</td>
+                  <td>chandersen@pixel.com</td>
+                </tr>
+                <tr>
+                  <td>Christian Andersen</td>
+                  <td>Pixel Inc.</td>
+                  <td>Senior</td>
+                  <td>315</td>
+                  <td>California</td>
+                  <td>+1764156161</td>
+                  <td>chandersen@pixel.com</td>
+                </tr>
+                <tr>
+                  <td>Christian Andersen</td>
+                  <td>Pixel Inc.</td>
+                  <td>Senior</td>
+                  <td>315</td>
+                  <td>California</td>
+                  <td>+1764156161</td>
+                  <td>chandersen@pixel.com</td>
+                </tr>
+                <tr>
+                  <td>Christian Andersen</td>
+                  <td>Pixel Inc.</td>
+                  <td>Senior</td>
+                  <td>315</td>
+                  <td>California</td>
+                  <td>+1764156161</td>
+                  <td>chandersen@pixel.com</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td colspan="7">
+                    <div class="agents__footer">
+                      <div class="agents__footer-total">Total agents: 28</div>
+                      <div class="agents__footer-navigation">
+                        <div class="agents__footer-navigation-select">
+                          <span>Resultater per side:</span>
+                          <select name="page">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option selected value="6">6</option>
+                          </select>
+                        </div>
+                        <div class="agents__footer-navigation-page">
+                          Side 1 av 5
+                        </div>
+                        <div class="agents__footer-navigation-buttons">
+                          <button class="icon-button">
+                            <i
+                              class="icon-button__arrow icon-button__arrow-left"
+                            ></i>
+                          </button>
+                          <button class="icon-button">
+                            <i
+                              class="
+                                icon-button__arrow icon-button__arrow-right
+                              "
+                            ></i>
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+        </article>
+      </main>
+      <footer class="footer">
+        <div class="footer__content">
+          Copyright © 2020 Apartment Owners Association. All Rights Reserved.
+        </div>
+        <a href="#privacy-policy">Privacy Policy</a>
+      </footer>
+    </div>
+  </body>
+</html>
